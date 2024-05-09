@@ -1,0 +1,81 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./transform.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        .container{
+         background-color: blue;
+         background-color: cyan;
+         height: 80vh;
+         width: 30vh;
+ 
+        }
+        .box{
+         width: 34px;
+         height: 45px;
+         animation-name: Animation;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-timing-function: ease-in-out;
+         animation-delay: 1s;
+         animation-direction: alternate;
+        }
+        @keyframes Animation {
+         from{
+             background-color: red;
+ 
+         }
+         to{
+             background-color: yellow;
+             transform: translateX(1000px);
+ 
+         }
+         
+        }
+        
+     </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="transformStyles">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Molestiae molestias dignissimos atque dolore quo neque, eum quod
+            labore. Optio, obcaecati repudiandae. Repellendus ad laboriosam
+            quisquam reiciendis, necessitatibus cumque, beatae, velit eaque
+            neque molestias sit repellat placeat earum mollitia cum
+            perspiciatis atque veritatis maiores aut et iste quis sapiente
+            excepturi. Rem.
+        </p>
+        <div class="container">
+            <div class="box">
+             hello
+                </div>
+            </div>
+    </div>
+    <div >
+        <h1 class="text-red-700 bg-gradient-to-r from-slate-950 via-red-500 to-slate-700 hover:bg-blue-500 ">this is a mix colour line</h1>
+    </div>
+    .
+    <div>
+        <h1 class="text-blue-500 bg-gradient-to-r from-slate-950 via-green-500 to-slate-900 hover:bg-yellow-600">hello my name is faizan ijaz 
+            i am typing some mixed colur
+             line in transformStyles
+            i am learning about web development</h1>
+    </div>
+    .
+    <div class="container">
+        <div class="box"> <input type="image" src="https://images.pexels.com/photos/20142606/pexels-photo-20142606/free-photo-of-balcony-greece.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
